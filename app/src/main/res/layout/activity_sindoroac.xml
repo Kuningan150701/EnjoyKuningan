@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sindoroac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:background="@color/greenb"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="3dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imgr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ahh" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="SINDORO MOUNTAIN"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="Rute normal: Kledung"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Provinsi: Jawa Tengah"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Ketinggian	3.153 mdpl (10.335 kaki)[1]"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgr2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv4"
+            android:src="@drawable/sindoroooo"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr2"
+            android:text="Sourche:Wikipedia"
+            android:textSize="8sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:text="Gunung Sindoro, biasa disebut Sindara, atau juga Sundoro (Ketinggian puncak 3.136 mdpl) (Jawa: ꦒꦸꦤꦸꦁ​ꦱꦶꦤ꧀ꦢꦫ, translit. Gunung Sindara) merupakan sebuah gunung volkano aktif yang terletak di Jawa Tengah, Indonesia, dengan Temanggung sebagai kota terdekat. Gunung Sindoro terletak berdampingan dengan Gunung Sumbing. Gunung sindara dapat terlihat jelas dari puncak sikunir dieng"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="Topografi"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:text="Kawah yang disertai jurang dapat ditemukan di sisi barat laut ke selatan gunung, dan yang terbesar disebut Kembang. Sebuah kubah lava kecil menempati puncak gunung berapi. Sejarah letusan Gunung Sindara yang telah terjadi sebagian besar berjenis ringan sampai sedang (letusan freatik).
+
+Hutan di kawasan Gunung Sundoro berjenis Hutan Dipterokarp Bukit, Hutan Dipterokarp Atas, hutan Montane, dan Hutan Ericaceous atau hutan gunung."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv8"
+            android:text="Nama Sindoro berasal dari bahasa Sansekerta Sundara (सुन्दर) yang artinya Indah. Bentuk lain untuk perempuan dari Sindoro adalah Sundari yang memiliki arti Cantik. Asal usul nama itu diperkuat dengan Manuskrip Bujangga Manik ketika dia sedang melewati dataran tinggi Dieng"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv9"
+            android:text="Sejarah mengenai letusan yang terjadi di Gunung Sindoro tidak banyak diketahui, namun letusan baru mulai tercatat sejak Abad ke-19. Berikut ini adalah daftar letusan maupun peningatan aktivitas vulkanik Gunung Sindoro yang terjadi sejak Abad ke-19 Masehi:
+
+1806: Letusan di puncak gunung. Masih diragukan kebenarannya.
+1818: Terjadi letusan abu yang menyebar hingga Pantai Pekalongan. Bulan tidak diketahui.
+1882: Terjadi letusan abu di Gunung Kembang. Abunya jatuh hingga di Kebumen. Antara 1-7 April kemungkinan terjadi leleran lava di lereng barat laut.
+1883: Peningkatan aktivitas vulkanik. Kemungkinkan terjadi letusan pada bulan Agustus.
+1887: 13-14 November. Terdengar suara ledakan.
+1902: 1-25 Mei. Kegiatannya terbatas pada bualan lumpur dan lontaran batu pijar yang jatuh kembali di lubang letusan.
+1903: 16-21 Oktober. Letusan di rekahan kali Prupuk di atas Gunung Kembang, di antara ketinggian 2850-2980 meter (letusan samping). Hujan abu sampai di Kejajar dan Garung.
+1906: 22 September-20 Desember. Letusan di rekahan S1 dan terbentuknya K5 di selatan dataran pasir Z1. Pada 25 September, terjadi hujan abu di Kledung. Tanaman banyak yang rusak, rumah penduduk terbakar.
+1908: 10 Februari. Peningkatan aktivitas vulkanik. Terdengar suara gemuruh.
+1910: Januari. Peningkatan aktivitas vulkanik. Di Temanggung kadang-kadang terdengar suara gemuruh.
+1970: Setelah beristirahat selama kurang lebih 60 tahun, terdapat lagi kenaikan aktivitas vulkanik tanpa menghasilkan suatu letusan. Adapun urutannya adalah sebagai berikut:
+21 Oktober kira-kira pukul 05.30 dan pada 28 Oktober kira-kira pukul 06.30, terasa bumi bergetar di Kampung Sigedang di lereng barat laut, kurang lebih 4,5 km jauhnya dari puncak.
+29 Oktober. Mulai tampak asap putih tipis mengepul dari lubang letusan lama.
+1 November. Kira-kira pukul 06.00, tampak asap putih tipis lurus mengepul ke atas.
+2 November. Pada pagi hari kira-kira pukul 06.00 Tampak asapnya menebal. Antara pukul 09.00 hingga 14.00 terdengar suara blazer.
+Di malam hari tampak asap berwarna merah di atas Gunung Sindoro, kemudian di siang hari asap putihnya menipis kembali.
+Hamidi dan Hadian (Juni 1973), telah melakukan pendakian puncak, demikian pula Reksowirogo, tetapi tidak tampak bekas peningkatan aktivitas vulkanik tersebut.
+
+2011: November 2011 - 30 Maret 2012. Terjadi semburan asap solfatara di beberapa tempat pada dinding dan dasar kawah utama. Aktivitas kegempaan juga mengalami peningkatan sejak bulan November 2011."
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv10"
+            android:text="PVMBG (Pusat Vulkanologi dan Mitigasi Bencana Geologi) meningkatkan status Gunung Sindoro dari Aktif Normal (Level I) menjadi Waspada (Level II), terhitung mulai 5 Desember 2011 pukul 20.00 WIB. Peningkatan aktivitas Gunung Sindoro teramati dengan meningkatnya aktivitas kegempaan dan visual, terutama Gempa Vulkanik Dalam dan Vulkanik Dangkal. Gempa Vulkanik Dalam dan Gempa Vulkanik Dangkal mulai meningkat bulan November 2011, dan cenderung mengalami peningkatan hingga Desember 2011.
+
+Hasil 2 kali pengamatan visual dan pengukuran suhu di kawah puncak pada beberapa titik di sekitar kawah, yaitu tanggal 26 November 2011, dan 2 Desember 2011, menunjukkan adanya kepulan asap dari fumarol dengan temperatur rata-rata sebesar 75 °C pada 26 Oktober, dan 95 °C pada 2 November. Pada tanggal 2 November tinggi asap fumarol sudah melewati bibir kawah gunung (sekitar beberapa puluh meter) dengan tekanan asap lemah-sedang.
+
+Status Gunung Sindoro kembali diturunkan menjadi Aktif Normal (Level I) pada 30 Maret 2012, terhitung mulai pukul 14.00 WIB menyusul terjadinya penurunan aktivitas vulkanik secara visual maupun kegempaan. Dari hasil pengamatan, teramati aktivitas vulkanik secara visual maupun kegempaan cenderung mengalami penurunan dan tidak mengalami peningkatan."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout>
+
+</ScrollView>

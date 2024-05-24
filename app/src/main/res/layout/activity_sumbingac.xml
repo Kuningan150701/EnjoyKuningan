@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sumbingac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:background="@color/greenb"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="3dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imgr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ahh" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="SUMBING MOUNTAIN"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="3.371 m (11.060 kaki)"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Provinsi: Jawa Tengah"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Puncak: 2.577 m (8.455 kaki)"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgr2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv4"
+            android:src="@drawable/sumbinggggg"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr2"
+            android:text="Sourche:Wikipedia"
+            android:textSize="8sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:text="Gunung Sumbing adalah gunung api yang terdapat di Jawa Tengah, Indonesia. (Ketinggian puncak 3.371 mdpl), gunung Sumbing merupakan gunung tertinggi ketiga di Pulau Jawa setelah Gunung Semeru dan Gunung Slamet. Gunung ini secara administratif terletak di tiga wilayah kabupaten, yaitu Kabupaten Magelang; Kabupaten Temanggung; dan Kabupaten Wonosobo. Bersama dengan Gunung Sindoro, Gunung Sumbing membentuk bentang alam gunung kembar, seperti Gunung Merapi dan Gunung Merbabu, apabila dilihat dari arah Temanggung. Celah antara gunung ini dan Gunung Sindoro dilalui oleh jalan provinsi yang menghubungkan kota Temanggung dan kota Wonosobo. Jalan ini biasa dijuluki sebagai Kledung Pass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="Topografi"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:text="Dalam Catatan sejarah Sebelum bernama Gunung Sumbing, gunung ini bernama Gunung sembung. Hal ini berdasar dari Manuskrip Bujangga Manik Ketika dia melewati dataran tinggi Dieng"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv8"
+            android:text="Letusan terakhir tercatat pada tahun 1730, yang membentuk kubah lava dengan aliran lava ke arah bibir kawah terendah[3]
+
+Gunung Sumbing mempunyai kawasan hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan Hutan Ericaceous atau hutan gunung. Sebagian besar wilayah lereng gunung ini telah digunakan untuk lahan pertanian."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv9"
+            android:text="Jalur pendakian Gunung Sumbing paling populer adalah melalui pos Garung. Garung adalah sebuah desa di kaki bagian utara Gunung Sumbing, di kawasan Kledung Pass. Dekat dengan Desa Garung tersebut juga terdapat basecamp untuk pendakian ke Gunung Sindoro. Selain itu juga terdapat jalur lain seperti Bowongso, Cepit, Lamuk, Banaran, Butuh Kaliangkrik, dan Mangli Kaliangkrik.
+
+Letak Gunung Sumbing dan Gunung Sindoro saling berhadapan. Banyak disebut oleh masyarakat bahwa gunung Sumbing-Sindoro adalah gunung kembar layaknya gunung Merapi-Merbabu. Tinggi yang tidak jauh berbeda, dan juga kondisi alam gunung yang juga hampir sama. Namun bagi para pendaki Gunung Sumbing memiliki trek yang lebih berat daripada Gunung Sindoro dikarenakan gradien kemiringan yang terjal dan rute yang lebih panjang."
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

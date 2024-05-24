@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".semeruac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:background="@color/greenb"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="3dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imgr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ahh" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="SEMERU MOUNTAIN"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="Ketinggian:  3.676 m (12.060 ft)"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Provinsi: Jawa Tengah"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Terakhir Meletus : -"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgr2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv4"
+            android:src="@drawable/semeruuuu"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr2"
+            android:text="Sourche:Wikipedia"
+            android:textSize="8sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:text="Gunung Semeru atau Gunung Meru adalah sebuah gunung berapi kerucut di Jawa Timur, Indonesia. Gunung Semeru merupakan gunung tertinggi di Pulau Jawa, dengan puncaknya Mahameru, 3.676 meter dari permukaan laut (mdpl). Gunung ini terbentuk akibat subduksi Lempeng Indo-Australia kebawah Lempeng Eurasia. Gunung Semeru juga merupakan gunung berapi tertinggi ketiga di Indonesia setelah Gunung Kerinci di Sumatra dan Gunung Rinjani di Nusa Tenggara Barat.[1] Kawah di puncak Gunung Semeru dikenal dengan nama Jonggring Saloko."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="Topografi"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:text="Gunung Semeru secara administratif termasuk dalam wilayah dua kabupaten, yakni Kabupaten Malang dan Kabupaten Lumajang, Provinsi Jawa Timur. Gunung ini termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru. Semeru mempunyai kawasan hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan Hutan Ericaceous atau hutan gunung. Posisi geografis Semeru terletak antara 8°06' LS dan 112°55' BT."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv8"
+            android:text="Pada tahun 1913 dan 1946 Kawah Jonggring Saloka memiliki kubah dengan ketinggian 3.744,8 m hingga akhir November 1973. Di sebelah selatan, kubah ini mendobrak tepi kawah menyebabkan aliran lava mengarah ke sisi selatan meliputi daerah Pronojiwo dan Candipuro di Lumajang."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv9"
+            android:text="Secara umum iklim di wilayah Gunung Semeru termasuk type iklim B (Schmidt dan Ferguson) dengan curah hujan 927 mm - 5.498 mm per tahun dengan jumlah hari hujan 136 hari/tahun dan musim hujan jatuh pada bulan November - April. Suhu udara dipuncak Semeru berkisar antara 0 - 4 derajat celsius.
+
+Suhu rata-rata berkisar antara 3 °C - 8 °C pada malam dan dini hari, sedangkan pada siang hari berkisar antara 15 °C - 21 °C. Kadang-kadang pada beberapa daerah terjadi hujan salju kecil pada saat perubahan musim hujan ke musim kemarau atau sebaliknya. Suhu yang dingin di sepanjang rute perjalanan ini bukan semata-mata disebabkan oleh udara diam, namun juga didukung oleh kencangnya angin yang berhembus ke daerah ini menyebabkan udara semakin dingin."
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv10"
+            android:text="Gunung ini masuk dalam kawasan Taman Nasional Bromo Tengger Semeru. Taman Nasional ini terdiri dari pegunungan dan lembah seluas 50.273,3 hektar. Terdapat beberapa gunung di dalam Kaldera Gunung Tengger antara lain: Gunung Bromo (2.392 m); Gunung Batok (2.470 m); Gunung Kursi (2.581 m); Gunung Watangan (2.662 m); dan Gunung Widodaren (2.650m). Terdapat empat buah danau (ranu): Ranu Pani, Ranu Regulo, Ranu Kumbolo dan Ranu Darungan."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rinjaniac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:background="@color/greenb"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="3dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imgr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ahh" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="RINJANI MOUNTAIN"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="Ketinggian: 3.726 m"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Provinsi: Nusa Tenggara Barat"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Ketinggian relatif: 3.726 m"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgr2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv4"
+            android:src="@drawable/rinjanisatu"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr2"
+            android:text="Sourche:Wikipedia"
+            android:textSize="8sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gunung_rinjani_adalah_gunung_yang_berlokasi_di_pulau_lombok_nusa_tenggara_barat_gunung_yang_merupakan_gunung_berapi_kedua_tertinggi_di_indonesia_dengan_ketinggian_3_726_mdpl_serta_terletak_pada_lintang_8_25_ls_dan_116_28_bt_ini_merupakan_gunung_favorit_bagi_pendaki_indonesia_karena_keindahan_pemandangannya"
+            android:layout_below="@id/tv5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="Topografi"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:text="Gunung Rinjani dengan titik tertinggi 3.726 mdpl, mendominasi sebagian besar pemandangan Pulau Lombok bagian utara."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv8"
+            android:text="Di sebelah barat kerucut Rinjani terdapat kaldera dengan luas sekitar 3.500 m × 4.800 m, memanjang kearah timur dan barat. Di kaldera ini terdapat Segara Anak (segara= laut, danau) seluas 11.000.000 m persegi dengan kedalaman 230 m. Air yang mengalir dari danau ini membentuk air terjun yang sangat indah, mengalir melewati jurang yang curam. Di Segara Anak banyak terdapat ikan mas dan mujair sehingga sering digunakan untuk memancing. Bagian selatan danau ini disebut dengan Segara Endut."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv9"
+            android:text="Di sisi timur kaldera terdapat Gunung Baru (atau Gunung Barujari) yang memiliki kawah berukuran 170m×200 m dengan ketinggian 2.296 – 2376 m dpl. Gunung kecil ini terakhir meletus pada tanggal 25 Oktober 2015 dan 3 November 2015,[3] setelah sebelumnya tercatat meletus Mei 2009 dan pada tahun 2004.[4][5] Jika letusan tahun 2004 tidak memakan korban jiwa, letusan tahun 2009 ini telah memakan korban jiwa tidak langsung 31 orang, karena banjir bandang pada Kokok (Sungai) Tanggek akibat desakan lava ke Segara Anak.[6] Sebelumnya, Gunung Barujari pernah tercatat meletus pada tahun 1944 (sekaligus pembentukannya), 1966, dan 1994."
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv10"
+            android:text="Selain Gunung Barujari terdapat pula kawah lain yang pernah meletus,disebut Gunung Rombongan."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

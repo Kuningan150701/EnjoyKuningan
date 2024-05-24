@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lawuacc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:background="@color/greenb"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="3dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imgr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ahh" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="LAWU MOUNTAIN"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="3.265 m (10.712 ft)"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Provinsi: Jawa Tengah"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Puncak : 3.118 m (10.230 ft)"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgr2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv4"
+            android:src="@drawable/lawuuuu"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr2"
+            android:text="Sourche:Wikipedia"
+            android:textSize="8sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:text="Gunung Lawu (Hanacaraka: ꦒꦸꦤꦸꦁꦭꦮꦸ) adalah sebuah gunung berapi aktif yang terletak di Pulau Jawa, tepatnya di perbatasan Jawa Tengah dan Jawa Timur, Indonesia. Gunung Lawu memiliki ketinggian sekitar 3.265 mdpl. Gunung Lawu terletak di antara tiga kabupaten, yaitu Karanganyar di Jawa Tengah, Ngawi, dan Magetan di Jawa Timur. Status gunung ini adalah gunung api istirahat, yang diperkirakan terakhir meletus pada tanggal 28 November 1885 dan telah lama tidak aktif, terlihat dari rapatnya vegetasi serta puncaknya yang tererosi. Studi pada 2019 tentang geothermal heat flow menyugestikan bahwa Gunung Lawu masih aktif sampai sekarang Pada tahun 1978, serangkaian gempa bumi dilaporkan dirasakan diarea sekitar Gunung Lawu dan diikuti oleh suara mirip dentuman dari arah gunung. Gunung Lawu merupakan salah satu gunung terdingin di Jawa, setelah Gunung Semeru, dan Gunung Slamet yang merupakan titik terdingin di Jawa. "
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="Topografi"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:text="Di lerengnya terdapat kepundan kecil yang masih mengeluarkan uap air (fumarol) dan belerang (solfatara). Gunung Lawu mempunyai kawasan hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan hutan Ericaceous.
+
+Gunung Lawu memiliki tiga puncak, yakni Hargo Dalem, Hargo Dumiling, dan puncak tertinggi bernama Hargo Dumilah"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv8"
+            android:text="Di lereng gunung ini terdapat sejumlah tempat yang populer sebagai tujuan wisata, terutama di daerah Tawangmangu, Cemorosewu, dan Sarangan. Sedikit ke bawah, di sisi barat terdapat dua komplek percandian dari masa akhir Majapahit, yaitu Candi Sukuh dan Candi Cetho. Di kaki gunung ini juga terletak komplek pemakaman kerabat Praja Mangkunagaran: Astana Girilayu dan Astana Mangadeg. Di dekat komplek ini terletak Astana Giribangun, mausoleum untuk keluarga presiden ke-2 Indonesia, Soeharto."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv9"
+            android:text="Nama Gunung Lawu, yang berarti unggul, oleh masyarakat setempat disebut juga sebagai Wukir Mahendra Giri. Kata tersebut berasal dari bahasa Jawa, dan ketiganya memiliki arti yang sama yaitu gunung; sehingga dapat diartikan sebagai tiga gunung. Hal ini sejalan dengan fakta bahwa Gunung Lawu memang memiliki tiga puncak besar yaitu Hargo Dalem, Hargo Dumiling, dan Hargo Dumilah."
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv10"
+            android:text="Nama-nama puncak gunung kemungkinan besar bersumber dari Serat Centhini, yang menyebutkan bahwa Gunung Lawu memiliki lima belas puncak. Di sebelah selatan, terdapat tujuh puncak yaitu Hargo Dalem, Dumilah, Pethapralaya, Mayang, Cakrakembang, Tenjomaya, dan Kepanasan. Sementara itu, di sebelah utara terdapat delapan puncak yaitu Hargo Tiling, Pekareman, Sadewa, Pamenang, Candhirenggo, Bayu, Rimbi, dan Kalithi. Dalam Serat Centhini, hanya Hargo Dumiling yang tidak disebutkan. Kemungkinan nama tersebut merupakan modifikasi dari Hargo Tiling. Perkiraan ini didukung oleh puncaknya yang sama rata di bagian utara Gunung Lawu.[8]
+
+Poerbatjaraka menyebutkan bahwa nama asli Gunung Lawu adalah Katong yang berarti dewa. Nama tersebut tertulis dalam Tantu Panggelaran. Gunung Katong adalah bagian dari reruntuhan Gunung Mahameru ketika dibawa oleh para dewa melalui langit Pulau Jawa. Reruntuhan lainnya menjadi Gunung Wilis, Kamput, Kawi, Arjuno, dan Kemukus. Menurut Poerbatjaraka, Gunung Katong diidentikkan dengan Gunung Lawu. Dengan kata lain, Gunung Katong adalah nama kuno untuk Gunung Lawu.[8]
+
+Menurut Zoetmulder arti kata katong adalah dewa, rasa hormat, penghormatan, dan kekaguman. Sementara, kata lawu berarti tertinggi dan unggul. Makna kedua kata tersebut sama-sama mengandung makna kekaguman; sehingga meskipun namanya diubah, tetapi tidak menggeser makna yang terkandung di dalamnya.[9]
+
+Lawu dalam naskah kuno
+Selain dalam Serat Centhini, nama Lawu juga disebutkan dalam Serat Manikmaya. Serat tersebut ditulis pada 1794 Masehi, yang isinya memiliki kesamaan dengan Tantu Panggelaran. Namun, hal yang membedakan adalah Serat Manikmaya ditulis dalam bahasa Jawa Baru. Konon, Gunung Lawu merupakan bagian dari delapan belas gunung keramat di Jawa Tengah. Sangat mungkin bahwa mandala-mandala terletak di pegunungan tempat karya sastra itu dibuat.[8]
+
+Karya sastra yang lebih tua adalah Babad Tanah Jawi. Dalam kitab tersebut, Gunung Lawu disebut sebagai tempat moksa terakhir Prabu Brawijaya yang memiliki nama lain yaitu Sunan Gunung Lawu.[8] Mitos yang berkembang di masyarakat menyatakan bahwa ia melakukan moksa di pertapaan Pringgodani.[10] Pernyataan ini merupakan indikasi bahwa sampai saat penulisan Babad Tanah Jawi, yaitu pada masa Mataram Islam, Gunung Lawu masih dipandang sebagai tempat suci. Setidaknya, ia merupakan gunung yang dianggap berharga oleh umat Hindu.[8]
+
+Naskah tertua adalah Bhujangga Manik. Gunung Lawu juga disebut ketika Bhujangga Manik melakukan perjalanan dari Sunda ke Majapahit dan Bali.[8] Berikut adalah petikan kutipan dari naskah tersebut beserta terjemahan dalam bahasa Indonesia"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout>
+
+</ScrollView>

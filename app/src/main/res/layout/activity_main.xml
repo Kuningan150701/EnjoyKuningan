@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenb"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ahh" />
+
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/syahhidaa"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no" />
+    <TextView
+        android:id="@+id/explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Indonesia"
+        android:layout_below="@id/img2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="28sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_about_the_beauty_of_the_archipelago"
+        android:layout_below="@id/explore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppinsmedium"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_below="@id/about1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="28sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:id="@+id/about3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/indonesia_is_a_beautiful_country"
+        android:layout_below="@id/about2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="10sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppinsmedium"
+        tools:ignore="SmallSp" />
+
+
+    <ImageButton
+        android:id="@+id/btnlogin"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/about3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/greenb"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/loginh" />
+
+    <ImageButton
+        android:id="@+id/btnreg"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="70dp"
+        android:src="@drawable/registerh"
+        android:scaleType="fitXY"
+        android:layout_below="@id/btnlogin"
+        android:backgroundTint="@color/greenb"
+        android:importantForAccessibility="no" />
+
+
+</RelativeLayout>

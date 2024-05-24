@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Explore Indonesia</string>
+    <string name="explore_kuningan">Explore Kuningan</string>
+    <string name="this_is_about_a_small_town_horse_city">This is about a small town! Horse City</string>
+    <string name="welcome">Welcome!</string>
+    <string name="login">LOGIN</string>
+    <string name="kuningan_is_an_enjoy_city">Kuningan is an enjoy city</string>
+    <string name="register">REGISTER</string>
+    <string name="Loginbutt">LOGIN</string>
+    <string name="enter_passeord">Enter Passeord</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="talaga_surian">Talaga Surian</string>
+    <string name="gunung_ciremai">Gunung Ciremai</string>
+    <string name="gunung_rinjani">Gunung Rinjani</string>
+    <string name="gunung_sindoro">Gunung Sindoro</string>
+    <string name="this_is_about_the_beauty_of_the_archipelago">This is about the beauty of the archipelago</string>
+    <string name="indonesia_is_a_beautiful_country">Indonesia is a beautiful country</string>
+    <string name="gunung_lawu">Gunung Lawu</string>
+    <string name="gunung_rinjani_adalah_gunung_yang_berlokasi_di_pulau_lombok_nusa_tenggara_barat_gunung_yang_merupakan_gunung_berapi_kedua_tertinggi_di_indonesia_dengan_ketinggian_3_726_mdpl_serta_terletak_pada_lintang_8_25_ls_dan_116_28_bt_ini_merupakan_gunung_favorit_bagi_pendaki_indonesia_karena_keindahan_pemandangannya">Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung yang merupakan gunung berapi kedua tertinggi di Indonesia dengan ketinggian 3.726 mdpl serta terletak pada lintang 8º25\' LS dan 116º28\' BT ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya</string>
+    <string name="ketinggian_3_726_m_provinsi_nusa_tenggara_barat_ketinggian_relatif_3_726_m">Ketinggian: 3.726 m Provinsi: Nusa Tenggara Barat Ketinggian relatif: 3.726 m</string>
+</resources>

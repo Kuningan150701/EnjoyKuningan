@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenb"
+    tools:context=".About">
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/foto"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="no" />
+    <TextView
+        android:id="@+id/explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faisal Hidayatulloh"
+        android:layout_below="@id/img2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="28sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM:20210810085"
+        android:layout_below="@id/explore"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppinsbold"
+        tools:ignore="SmallSp" />
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:layout_marginTop="270dp"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="3">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pkt_hemat"
+            app:cardBackgroundColor="@color/greentea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/baseline_boy_24" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40sp"
+                    android:text="Laki-Laki"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/greenb"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pkt_hemat"
+            app:cardBackgroundColor="@color/greentea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/baseline_shield_moon_24" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40sp"
+                    android:text="Muslim"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/greenb"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pkt_hemat"
+            app:cardBackgroundColor="@color/greentea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/baseline_sports_motorsports_24" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40sp"
+                    android:text="Riding"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/greenb"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pkt_hemat"
+            app:cardBackgroundColor="@color/greentea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/baseline_laptop_24" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40sp"
+                    android:text="Programing"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/greenb"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pkt_hemat"
+            app:cardBackgroundColor="@color/greentea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/baseline_add_home_24" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40sp"
+                    android:text="TINFC-2021-04"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/greenb"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pkt_hemat"
+            app:cardBackgroundColor="@color/greentea"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/baseline_add_home_work_24" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40sp"
+                    android:text="Uniersitas Kuningan"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/greenb"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</RelativeLayout>

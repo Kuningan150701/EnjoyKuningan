@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenb"
+    tools:context=".loginacvtivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ahh" />
+
+    <ImageView
+        android:id="@+id/key"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/syahhidaa" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/key"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:autofillHints=""
+        android:background="@drawable/button_shape"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:textColor="@color/bltextedit"
+        android:textColorHint="#00796B"
+        tools:ignore="RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/username"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:autofillHints=""
+        android:background="@drawable/button_shape"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColorHint="#00796B"
+        tools:ignore="RtlSymmetry,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnloginlo"
+        android:layout_below="@id/password"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/greenb"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/loginh" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_below="@id/btnloginlo"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/greenb"
+        android:importantForAccessibility="no"
+        android:scaleType="fitXY"
+        android:src="@drawable/cancelh" />
+
+
+
+
+</RelativeLayout>

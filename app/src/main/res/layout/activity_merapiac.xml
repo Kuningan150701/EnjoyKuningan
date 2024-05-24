@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".merapiac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="4500dp"
+        android:layout_weight="8"
+        android:background="@color/greenb"
+        android:alignmentMode="alignMargins"
+        android:columnCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="3dp"
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imgr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ahh" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr1"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="MERAPI MOUNTAIN"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:text="Ketinggian:  	2.968 m (9.738 ft)"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Provinsi: Jawa Tengah"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+            android:text="Letak
+KlatenBoyolaliMagelang
+(Jawa Tengah)
+Sleman (Daerah Istimewa Yogyakarta) "
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <ImageView
+            android:id="@+id/imgr2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tv4"
+            android:src="@drawable/ciremaiii"/>
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgr2"
+            android:text="Sourche:Wikipedia"
+            android:textSize="8sp"
+            android:paddingStart="24dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv5"
+            android:text="Gunung Merapi (ketinggian puncak 2.930 mdpl, per 2010) (Jawa: ꦒꦸꦤꦸꦁ​ꦩꦼꦫꦥꦶ, translit. Gunung Mêrapi) adalah gunung berapi di bagian tengah Pulau Jawa dan merupakan salah satu gunung api teraktif di Indonesia. Lereng sisi selatan berada dalam administrasi Kabupaten Sleman, Daerah Istimewa Yogyakarta, dan sisanya berada dalam wilayah Provinsi Jawa Tengah, yaitu Kabupaten Magelang di sisi barat, Kabupaten Boyolali di sisi utara dan timur, serta Kabupaten Klaten di sisi tenggara. Kawasan hutan di sekitar puncaknya menjadi kawasan Taman Nasional Gunung Merapi sejak tahun 2004.
+
+Gunung ini memiliki potensi kebencanaan yang tinggi karena menurut catatan modern, Gunung Merapi telah mengalami erupsi setiap dua sampai lima tahun sekali dan dikelilingi oleh permukiman yang padat. Sejak tahun 1548, gunung ini sudah meletus sebanyak 68 kali.[butuh rujukan] Kota Magelang dan Kota Yogyakarta adalah kota besar terdekat, berjarak kurang dari 30 km dari puncaknya. Di lerengnya masih terdapat permukiman sampai ketinggian 1.700 meter dan hanya berjarak empat kilometer dari puncak. Oleh karena tingkat kepentingannya ini, Merapi menjadi salah satu dari enam belas gunung api dunia yang termasuk dalam proyek Gunung Api Dekade Ini (Decade Volcanoes)"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv6"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsmedium"
+            android:padding="30dp"
+            android:text="Topografi"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv7"
+            android:text="Nama Merapi berasal dari penyingkatan meru (terj. har. 'gunung') dan api, sehingga nama merapi sebenarnya sudah berarti gunung api. Dalam naskah lama, Merapi pernah dikenal sebagai Mandrageni"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv8"
+            android:text="Gunung ini adalah gunung termuda dalam rangkaian gunung berapi yang mengarah ke selatan dari Gunung Ungaran, Gunung Merbabu, dan Gunung Merapi. Gunung ini terbentuk karena aktivitas di zona subduksi Lempeng Indo-Australia yang bergerak ke bawah Lempeng Eurasia menyebabkan munculnya aktivitas vulkanik di sepanjang bagian tengah Pulau Jawa. Puncak yang sekarang ini tidak ditumbuhi vegetasi karena aktivitas vulkanik yang tinggi. Puncak ini tumbuh di sisi barat daya puncak Batulawang yang lebih tua"
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv9"
+            android:text="Proses pembentukan Gunung Merapi telah dipelajari dan dipublikasi sejak 1989 dan seterusnya.[5] Pascale-Claire Berthommier membagi perkembangan Merapi dalam empat tahap: Pra-Merapi, Merapi Tua atau Merapi Purba, Merapi Pertengahan, dan Merapi Baru (Modern).[6]
+
+Tahap aktivitas Pra-Merapi diperkirakan berlangsung 700.000 sampai 400.000 tahun yang lalu. Periode ini menyisakan jejak Gunung Bibi (2.025 meter) yang bagiannya masih dapat dilihat di sisi timur puncak Merapi. Gunung Bibi memiliki lava yang bersifat basaltik andesit.
+
+Tahap Merapi Tua terjadi ketika badan dasar Merapi mulai terbentuk namun belum berbentuk kerucut. Masa ini kira-kira berlangsung 60.000 – 8000 tahun lalu. Sisa-sisa aktivitas tahap ini adalah Bukit Turgo dan Bukit Plawangan di bagian selatan, yang terbentuk dari lava basaltik.
+
+Tahap aktivitas selanjutnya, Merapi Pertengahan, berlangsung 8.000 – 2.000 tahun lalu. Tahap ini ditandai dengan terbentuknya kerucut-kerucut tinggi, yang sekarang disebut Bukit Gajahmungkur dan Batulawang, terletak di lereng utara, yang tersusun dari lava andesit. Proses pembentukan pada masa ini ditandai dengan aliran lava, Breksiasi lava, dan awan panas. Aktivitas Merapi telah bersifat erupsi efusif (lelehan) dan eksplosif. Diperkirakan juga terjadi letusan eksplosif dengan runtuhan material ke arah barat yang meninggalkan morfologi tapal kuda dengan panjang 7 km, lebar 1–2 km dengan beberapa bukit di lereng barat. Kawah Pasarbubrah (di lereng sisi utara) diperkirakan terbentuk pada masa ini. Puncak Merapi yang sekarang, Puncak Anyar (baru), mulai terbentuk sekitar 2.000 tahun yang lalu. Dalam perkembangannya, diketahui terjadi beberapa kali letusan eksplosif dengan VEI 4 berdasarkan pengamatan lapisan tefra.
+
+Periode Merapi Baru (2000 tahun lalu s.d sekarang) adalah yang masih berlangsung. Pada tahap ini terbentuk kerucut puncak Merapi modern (Gunung/Puncak Anyar) di bekas kawah Pasarbubrah; proses dimulai sekitar 2000 tahun yang lalu. Tahap ini sangat aktif dan berkali-kali mempengaruhi perubahan peradaban penduduk yang tinggal di sekitarnya. Karakteristik letusan sejak 1953 adalah desakan lava ke puncak kawah disertai dengan keruntuhan kubah lava secara periodik dan pelepasan awan panas (nuée ardente) yang biasanya meluncur di lereng gunung tetapi dapat pula menyembur vertikal ke atas. Letusan tipe Merapi ini secara umum tidak mengeluarkan suara ledakan tetapi desisan. Kubah puncak yang ada sampai 2010 adalah hasil proses yang berlangsung sejak letusan gas 1969.[4] Kubah ini runtuh pada letusan 2010, menimbulkan bukaan ke arah tenggara (lembah Kali Gendol dan Kali Woro).
+
+Pakar geologi pada tahun 2006 mendeteksi adanya ruang raksasa di bawah Merapi berisi material seperti lumpur yang secara signifikan menghambat gelombang getaran gempa bumi. Para ilmuwan memperkirakan material itu adalah magma.[7] Kantung magma ini merupakan bagian dari formasi yang terbentuk akibat menghunjamnya Lempeng Indo-Australia ke bawah Lempeng Eurasia"
+            android:textSize="12sp"
+            android:paddingTop="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv10"
+            android:text="Puncak Merapi menjadi titik batas semu tiga daerah aliran sungai (DAS) diantaranya, DAS Bengawan Solo disebelah timur, DAS Opak di sebelah selatan dan DAS Progo di sebelah barat lereng gunung tersebut, juga merupakan titik hulu terjauh bagi sub DAS Opak. DAS Bengawan Solo dan DAS Progo adalah yang terluas cakupannya (Daerah Tangkapan Air) pada komplek gunung ini. DAS Bengawan Solo mengalirkan alirannya dan bermuara ke pesisir utara pulau Jawa, sedangkan DAS Progo dan DAS Opak keduanya sama-sama mengalirkan alirannya dan bermuara ke pesisir selatan pulau Jawa.[9][10]
+
+Gunung Merapi memiliki banyak sumber air sebagai akibat desakan uap air dari dalam bumi. Terdapat banyak aliran yang kemudian membentuk ngarai di bagian lereng dan kemudian membentuk dataran sedimen material vulkanik. Sungai-sungai ini terutama mengarah ke arah tenggara (Klaten), selatan (Yogyakarta) serta barat (Magelang), memasok air untuk daerah disekitarnya.
+
+Sungai-sungai yang membentuk ngarai sebagai jalur pergerakan material piroklastik dan lahar; beberapa yang cukup besar dan penting adalah Kali Woro (arah tenggara, Kabupaten Klaten), Kali Gèndhol (arah selatan-tenggara, dekat perbatasan Sleman-Klaten), Kali Bebeng (selatan, Sleman, lalu bergabung dengan Kali Gèndhol), Kali Kuning (selatan, Sleman), Kali Boyong (selatan, Sleman), Kali Krasak (barat daya, Magelang), Kali Putih (barat, Magelang), dan Kali Pabelan (barat, Magelang). Terhadap sungai-sungai ini telah dibangun sistem penahan lahar berupa sabo.
+
+Selain sungai, terdapat pula sumber-sumber air (umbul) yang menjadi tempat pemandian dan sumber pengairan persawahan."
+            android:textSize="12sp"
+            android:paddingStart="16dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/green"
+            android:fontFamily="@font/poppinsmedium"
+            tools:ignore="SmallSp" />
+
+    </RelativeLayout>
+
+</ScrollView>
